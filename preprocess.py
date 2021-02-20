@@ -33,7 +33,7 @@ class Pipeline:
     
     def __init__(self, target, numerical_log, categorical_encode, categorical_to_impute,
                  features, test_size = 0.1, random_state = 0,
-                 percentage = 0.01):
+                 percentage = 0.0001):
         
         # data sets
         self.X_train = None
