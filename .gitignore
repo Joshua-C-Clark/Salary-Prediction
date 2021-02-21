@@ -2,3 +2,4 @@ Processed Data
 Unprocessed Data
 *.ipynb
 *.pyc
+*.pkl

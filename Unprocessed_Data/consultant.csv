@@ -1,0 +1,349 @@
+,Company,Location,Date,Job_Title,Subspecialty,Years_Experience,Total_Comp
+0,McKinsey,"San Francisco, CA ",10/17/20,Senior Associate,Analytic, 7,"$198,000"
+1,Facebook,"Menlo Park, CA ",10/16/20,L4,Product, 5,"$177,000"
+2,Accenture,"San Francisco, CA ",10/15/20,Consultant,Analytic, 3,"$120,000"
+3,Salesforce,"Atlanta, GA ",10/15/20,8,Operations, 7,"$178,000"
+4,Oracle,"San Francisco, CA ",10/14/20,IC-4,Consumer,10,"$82,000"
+5,Accenture,"Detroit, MI ",10/12/20,11,Growth, 1,"$90,000"
+6,T-Mobile,"Seattle, WA ",10/12/20,l8,Operations,12,"$200,000"
+7,Ibm,"Dublin, DN, Ireland ",10/12/20,B6,Technical, 2,"$50,000"
+8,Accenture,"San Francisco, CA ",10/12/20,L11,Growth, 2,"$93,000"
+9,Deloitte,"Atlanta, GA ",10/12/20,Analyst,Operations, 1,"$90,000"
+10,Salesforce,"Lexington, KY ",10/11/20,7,User Journey,10,"$110,000"
+11,Deloitte,"Houston, TX ",10/11/20,Manager,Enterprise,,"$164,000"
+12,Google,"Mountain View, CA ",10/11/20,Manager (L6),Enterprise,,"$320,000"
+13,Bain,"Chicago, IL ",10/11/20,SAC,Generalist,,"$152,000"
+14,BCG,"Dallas, TX ",10/11/20,Project Leader,Analytic,,"$250,000"
+15,Deloitte,"Bangalore, KA, India ",10/11/20,Consultant,Consumer,,"$20,000"
+16,Accenture,"Chicago, IL", 10/9/20,10,Talent,,"$90,000"
+17,EY,"Chicago, IL", 10/9/20,Senior Consultant,Operations,,"$160,000"
+18,deloitte,"Singapore, SG, Singapore", 10/8/20,4,Product,,"$200,000"
+19,Ernst and Young,"Chicago, IL", 10/8/20,Senior Manager,Analytic,,"$221,000"
+20,McKinsey,"New York, NY", 10/8/20,Analyst,Analytic,,"$130,000"
+21,Accenture,"Chicago, IL", 10/8/20,Senior Analyst,Technical,,"$90,000"
+22,McKinsey & Company,"Atlanta, GA", 10/7/20,Entry,Operations,,"$120,000"
+23,Moody's Analytics,"New York, NY", 10/7/20,Associate Director,Analytic,,"$200,000"
+24,Boston Consulting Group,"Boston, MA", 10/7/20,Principal,Growth,,"$350,000"
+25,Deloitte,"Washington, DC", 10/7/20,Senior Consultant,Technical,,"$123,000"
+26,PwC,"Houston, TX", 10/6/20,Manager,Enterprise,,"$150,000"
+27,Booz Allen Hamilton,, 10/5/20,,,,
+28,,,,,,,
+29,,,,,,,
+30,,,,,,,
+31,,,,,,,
+32,,,,,,,
+33,,,,,,,
+34,,,,,,,
+35,,,,,,,
+36,,,,,,,
+37,,,,,,,
+38,,,,,,,
+39,,,,,,,
+40,,,,,,,
+41,,,,,,,
+42,,,,,,,
+43,,,,,,,
+44,,,,,,,
+45,,,,,,,
+46,,,,,,,
+47,,,,,,,
+48,,,,,,,
+49,,,,,,,
+50,,,,,,,
+51,,,,,,,
+52,,,,,,,
+53,,,,,,,
+54,,,,,,,
+55,,,,,,,
+56,,,,,,,
+57,,,,,,,
+58,,,,,,,
+59,,,,,,,
+60,,,,,,,
+61,,,,,,,
+62,,,,,,,
+63,,,,,,,
+64,,,,,,,
+65,,,,,,,
+66,,,,,,,
+67,,,,,,,
+68,,,,,,,
+69,,,,,,,
+70,,,,,,,
+71,,,,,,,
+72,,,,,,,
+73,,,,,,,
+74,,,,,,,
+75,,,,,,,
+76,,,,,,,
+77,,,,,,,
+78,,,,,,,
+79,,,,,,,
+80,,,,,,,
+81,,,,,,,
+82,,,,,,,
+83,,,,,,,
+84,,,,,,,
+85,,,,,,,
+86,,,,,,,
+87,,,,,,,
+88,,,,,,,
+89,,,,,,,
+90,,,,,,,
+91,,,,,,,
+92,,,,,,,
+93,,,,,,,
+94,,,,,,,
+95,,,,,,,
+96,,,,,,,
+97,,,,,,,
+98,,,,,,,
+99,,,,,,,
+100,EY,"New York, N",| 9/4/20,Senior Consultant,Operations,,"$160,000"
+101,EY,"Dubai, DU, United Arab Emirate",| 9/3/20,Senior Manao,Operations,,"$245,000"
+102,Deloitte,"Hyderabad, TS, Indi",| 9/3/20,Manager,Analytic,,"$48,000"
+103,Deloitte,"Houston, T",| 9/2/20,Senior Consultant,Human Capital,,"$130,000"
+104,Ernst and Young,"San Francisco, C",| 9/2/20,Staff 2,Transfer Pricing,,"$75,000"
+105,Accenture,"Boston, M",| 9/2/20,9,Enterprise,,"$140,000"
+106,Deloitte,"New York, N",| 9/1/20,Senior Consultant,Enterprise,,"$148,000"
+107,Deloitte,"Houston, T",| 9/1/20,Senior Consultant,Consumer,,"$150,000"
+108,Accenture,"Atlanta, GA", 8/31/20,Manager,Growth,,"$200,000"
+109,EY,"Chicago, IL", 8/31/20,Consultant,Operations,,"$150,000"
+110,Oliver Wyman,"Toronto, ON, Canada", 8/31/20,Consultant,Consumer,,"$75,000"
+111,Bain,"Singapore, SG, Singapore", 8/31/20,Manager,Private equity,,"$184,000"
+112,Deloitte,"Washington, DC", 8/30/20,Manager,Enterprise,,"$140,000"
+113,Deloitte,"Seattle, WA", 8/29/20,Senior Consultant,Enterprise,,"$98,000"
+114,Bain,"Boston, MA", 8/29/20,Associate Consultant,Generalist,,"$95,000"
+115,Ernst and Young,"Charlotte, NC", 8/29/20,Consultant,Technical,,"$72,000"
+116,Accenture,"Houston, TX", 8/29/20,Strategy Analyst (L12),Growth,,"$101,000"
+117,Cisco,"San Jose, CA", 8/29/20,Grade 11,Growth,,"$260,000"
+118,Accenture,"Washington, DC", 8/28/20,8,Technical,,"$135,000"
+119,Deloitte,"Melbourne, VI, Australia", 8/28/20,Partner,Risk,,"$600,000"
+120,Deloitte,"Dubai, DU, United Arab Emirates", 8/27/20,Business Analyst,Strategy Consulting,,"$65,000"
+121,Accenture,"Houston, TX", 8/27/20,Manager,Product,,"$140,000"
+122,Accenture,"Minneapolis, MN", 8/25/20,L9,Technical,,"$135,000"
+123,Deloitte,"Mumbai, MH, India", 8/25/20,Manager,Consumer,,"$38,000"
+124,Deloitte,"Washington, DC", 8/24/20,Manager,Enterprise,,"$146,000"
+125,Deloitte,"New York, NY", 8/24/20,Consultant,Enterprise,,"$83,000"
+126,Deloitte,"Dallas, TX", 8/24/20,Senior Manager,Strategy,,"$183,000"
+127,Deloitte,"Washington, DC", 8/24/20,Consultant,Government and Public Services,,"$82,000"
+128,Deloitte,"Washington, DC", 8/24/20,Consultant,Enterprise,,"$94,000"
+129,PwC,"Washington, DC", 8/24/20,Manager,Technical,,"$157,000"
+130,McKinsey,"San Francisco, CA", 8/24/20,Senior Associate,Generalist,,"$217,000"
+131,Deloitte,"Houston, TX", 8/24/20,Specialist Master,Technical,,"$180,000"
+132,Deloitte,"Boston, MA", 8/24/20,Senior Manager,Product,,"$208,000"
+133,Accenture,"New York, NY", 8/23/20,Senior Manager,Technical,,"$243,000"
+134,Deloitte,"Arlington, VA", 8/23/20,Specialist Master,Enterprise,,"$159,000"
+135,McKinsey,"Boston, MA", 8/22/20,Engagement Manager,Operations,,"$300,000"
+136,EY,"New York, NY", 8/22/20,Manager,Operations,,"$161,000"
+137,Oliver Wyman,"Dubai, DU, United Arab Emirates", 8/21/20,Associate,Generalist,,"$190,000"
+138,LEK,"Chicago, IL", 8/20/20,Associate,Strategy,,"$93,000"
+139,Deloitte,"New York, NY", 8/20/20,Tech Consultant,Technical,,"$69,000"
+140,KPMG,"Houston, TX", 8/20/20,Senior Associate,User Journey,,"$148,000"
+141,PwC,"Chicago, IL", 8/20/20,Managing Director,Technical,,"$345,000"
+142,Microsoft,"Seattle, WA", 8/19/20,L65,Analytic,,"$230,000"
+143,Accenture,"Kansas City, MO", 8/19/20,L7,Agile,,"$170,000"
+144,Accenture,"Chicago, IL", 8/19/20,10,Growth,,"$110,000"
+145,Accenture,"Bangalore, KA, India", 8/18/20,Consultant,Consumer,,"$56,000"
+146,Deloitte Consulting,"Chicago, IL", 8/17/20,Analyst,Enterprise,,"$95,000"
+147,PwC,"New York, NY", 8/17/20,Director,Consultant,,"$305,000"
+148,Slalom,"New York, NY", 8/17/20,L6,Analytic,,"$220,000"
+149,BCG,"Washington, DC", 8/17/20,Project Leader,Consulting,,"$231,000"
+150,PwC,"New York, NY", 8/16/20,Director,Enterprise,,"$240,000"
+151,Kpmg,"Los Angeles, CA", 8/16/20,Associate,Operations,,"$79,000"
+152,EY,"Dallas, TX", 8/16/20,Manager 1,Finance,,"$153,000"
+153,Bain,"Boston, MA", 8/14/20,Senior Associate Consultant,Consulting,,"$132,000"
+154,Oracle,"Arlington, VA", 8/13/20,IC-4,Technical,,"$133,000"
+155,EY,"London, EN, United Kingdom", 8/12/20,Associate,Growth,,"$65,000"
+156,Deloitte,"Houston, TX", 8/11/20,Senior Consultant,Human Capital,,"$140,000"
+157,Accenture,"Houston, TX", 8/11/20,Senior Analyst,Talent & Organization,,"$90,000"
+158,Deloitte,"Chicago, IL", 8/10/20,Consultant,Strategy,,"$92,000"
+159,Deloitte,"Los Angeles, CA", 8/10/20,Senior Consultant,Enterprise,,"$160,000"
+160,KPMG,"Washington, DC", 8/10/20,Director,Consulting,,"$242,000"
+161,Deloitte,"London, EN, United Kingdom", 8/10/20,P2,Technical,,"$32,000"
+162,Ernst and Young,"San Francisco, C",| 8/9/20,Manager,Technical,,"$230,000"
+163,Capital One,"Washington, D",| 8/8/20,Associate,Analytic,,"$91,000"
+164,McKinsey,"Washington, D",| 8/8/20,Senior Business Analyst,Operations,,"$150,000"
+165,PwC,"Singapore, SG, Singapor",| 8/7/20,Senior Associate 3,Human Resources,,"$67,000"
+166,Ernst and Young,"San Francisco, C",| 8/6/20,Senior Consultant,Technical,,"$135,000"
+167,McKinsey,"Summit, N",| 8/5/20,Associate,Operations,,"$170,000"
+168,Amazon,"Seattle, W",| 8/5/20,L7,Consumer,,"$370,000"
+169,Accenture,"San Francisco, C",| 8/5/20,Senior Manager,Growth,,"$240,000"
+170,EY,"Atlanta, G",| 8/5/20,M2,Growth,,"$170,000"
+171,IBM,"Toronto, ON, Canad",| 8/4/20,B10,Consulting,,"$250,000"
+172,Deloitte,"London, EN, United Kingdo",| 8/4/20,Analyst,iOS,,"$32,000"
+173,Boston Consulting Group,"Atlanta, G",| 8/2/20,Consultant,Strategy,,"$190,000"
+174,Deloitte,"Chicago, I",| 8/1/20,Analyst,Digital Transformation,,"$80,000"
+175,KPMG,"Seattle, W",| 8/1/20,Senior Consultant,Security,,"$115,000"
+176,KPMG,"Seattle, W",| 8/1/20,Senior Consultant,Security,,"$115,000"
+177,Deloitte,"Washington, DC", 7/31/20,Senior Consultant,Unsure,,"$108,000"
+178,Accenture,"Houston, TX", 7/31/20,Consulting Analyst,Consulting,,"$81,000"
+179,Slalom,"Portland, OR", 7/31/20,Consultant,program management,,"$160,000"
+180,Google,"Chicago, IL", 7/31/20,Manager (L6),Sales,,"$300,000"
+181,ibm,"London, EN, United Kingdom", 7/30/20,b9,salesforce,,"$180,000"
+182,Accenture,"Austin, TX", 7/28/20,8,Website Optimization,,"$112,000"
+183,BCG,"Seattle, WA", 7/28/20,Consultant,N/A,,"$180,000"
+184,Accenture,"San Francisco, CA", 7/28/20,Consultant,Digital Integration,,"$111,000"
+185,Ernst and Young,"New York, NY", 7/27/20,Senior Consultant 2,Cybersecurity,,"$116,000"
+186,Deloitte,"Hong Kong, HK, Hong Kong (SAR)", 7/26/20,Analyst,Salesforce,,"$310,000"
+187,BCG,"Atlanta, GA", 7/24/20,Consultant,Strategy,,"$180,000"
+188,Deloitte,"Dallas, TX", 7/24/20,Consultant,Supply Chain,,"$132,000"
+189,Accenture,"Chicago, IL", 7/23/20,L7,Supply Chain and Operations Strategy Consulting,,"$188,000"
+190,Google,"Mountain View, CA", 7/23/20,L7,BizOps,,"$473,000"
+191,Amazon,"Tokyo, TY, Japan", 7/22/20,L4,Other,,"$94,000"
+192,Deloitte Consulting,"Pleasanton, CA", 7/20/20,Sr. Manager,Human Resources,,"$210,000"
+193,Slalom,"Chicago, IL", 7/20/20,Consultant,Analytics,,"$150,000"
+194,PwC,"Boston, MA", 7/17/20,Manager,Consulting,,"$115,000"
+195,Bain,"Boston, MA", 7/16/20,Consultant,General Management,,"$190,000"
+196,LEK,"Los Angeles, CA", 7/16/20,Consultant,Media and Entertainment,,"$180,000"
+197,EY,"Vancouver, BC, Canada", 7/15/20,Staff,Technology,,"$68,000"
+198,Bain,"San Francisco, CA", 7/15/20,Case Team Leader,Consultant,,"$275,000"
+199,Bain,"Washington, DC", 7/15/20,Consultant,Consulting,,"$211,000"
+200,Bain,"Washington, DC", 7/15/20,Consultant,Consulting,,"$187,000"
+201,Deloitte,"Chicago, IL", 7/14/20,Senior Consultant,Technology Consulting,,"$150,000"
+202,Ernst and Young,"Chicago, IL", 7/14/20,Senior Consultant,Security,,"$115,000"
+203,Accenture,"Berlin, BE, Germany", 7/14/20,L6,Digital Innovation,,"$110,000"
+204,Accenture,"San Francisco, CA", 7/13/20,Senior Manager,Talent & Organization,,"$240,000"
+205,Accenture,"Chicago, IL", 7/12/20,Manager,iOS,,"$147,000"
+206,BCG,"Washington, DC", 7/11/20,P1,Digital consulting,,"$375,000"
+207,BCG,"Singapore, SG, Singapore", 7/10/20,Principal,Consulting,,"$300,000"
+208,Booz Allen Hamilton,"Washington, D",| 7/8/20,Senior Associate,Consulting,,"$205,000"
+209,EY,"Dallas, T",| 7/8/20,Staff 1,People Advisory,,"$68,000"
+210,Amazon,"Chicago, I",| 7/8/20,L7,cloud,,"$375,000"
+211,PwC,"Adelaide, SA, Australi",| 7/8/20,Director,Mobile (iOS + Android),,"$166,000"
+212,AWS,"Hong Kong, HK, Hong Kong (SAR",| 7/7/20,6,Cloud Computing,,"$150,000"
+213,Deloitte,"Austin, T",| 7/6/20,Senior Consultant,M&A,,"$180,000"
+214,Deloitte,"Austin, T",| 7/6/20,Senior Consultant,M&A,,"$180,000"
+215,Accenture,"Chicago, I",| 7/6/20,10,Strategy,,"$100,000"
+216,PwC,"New York, N",| 7/6/20,L4,Technical Program Management,,"$154,000"
+217,Deloitte,"Costa Mesa, C",| 7/6/20,Analyst,Software Development,,"$90,000"
+218,EY,"New York, N",| 7/5/20,Staff,consulting,,"$100,000"
+219,KPMG,"Austin, T",| 7/5/20,Director,Cloud,,"$266,000"
+220,PwC,"Washington, D",| 7/3/20,Associate,Technology Consulting,,"$90,000"
+221,Accenture,"Atlanta, G",| 7/3/20,Manager,Strategy,,"$200,000"
+222,Bain,"New York, N",| 7/1/20,Senior Associate Consultant,Management,,"$143,000"
+223,Deloitte,"Houston, T",| 7/1/20,Senior Consultant,Program management,,"$130,000"
+224,uber,"New York, N",| 7/1/20,l4,none,,"$200,000"
+225,Deloitte,"Chicago, IL", 6/28/20,Manager,Distributed Systems (Back-End),,"$210,000"
+226,Bain,"Bangalore, KA, India", 6/28/20,Case Team Leader,Client facing consulting role,,"$66,000"
+227,BCG,"San Francisco, CA", 6/25/20,Consultant,General,,"$200,000"
+228,Boston Consulting Group,"New York, NY", 6/25/20,Consultant,Fintech,,"$210,000"
+229,Deloitte,"Austin, TX", 6/23/20,Senior Consultant,Cloud Architecture,,"$144,000"
+230,Slalom,"Chicago, IL", 6/22/20,Analyst,Cloud Technology,,"$85,000"
+231,IBM,"New York, NY", 6/21/20,band 6,Security,,"$188,000"
+232,Deloitte,"Arlington, VA", 6/20/20,Analyst,ML / AI,,"$78,000"
+233,Boston Consulting Group,"San Francisco, CA", 6/19/20,Consultant,Consulting,,"$190,000"
+234,Accenture,"Tokyo, TY, Japan", 6/17/20,6,Innovation,,"$163,000"
+235,Accenture,"San Francisco, CA", 6/17/20,9,Strategy Consulting,,"$170,000"
+236,Qualtrics,"Provo, UT", 6/16/20,L6,Customer success,,"$280,000"
+237,KPMG,"Philadelphia, PA", 6/15/20,Consultant,Security,,"$82,000"
+238,Bain,"Tokyo, TY, Japan", 6/14/20,Senior Associate Consultant,Consulting,,"$110,000"
+239,Ernst and Young,"London, EN, United Kingdom", 6/11/20,Staff/Assitant,Business Transformation and Strategy,,"$40,000"
+240,Accenture,"Chicago, IL", 6/11/20,Senior Analyst,Data Engineering,,"$100,000"
+241,LEK,"Mumbai, MH, India", 6/11/20,Consultant,Generalist,,"$85,000"
+242,Deloitte,"New York, NY", 6/10/20,Senior Consultant,Full Stack,,"$172,000"
+243,Accenture,"Chicago, I",| 6/9/20,Analyst,consulting,,"$90,000"
+244,LEK,"San Francisco, C",| 6/8/20,Consultant,MBA,,"$185,000"
+245,Ernst and Young,"Chicago, I",| 6/8/20,Manager,Program Management,,"$140,000"
+246,Accenture,"Seattle, W",| 6/7/20,Strategy Analyst,Strategy,,"$90,000"
+247,Accenture,"New York, N",| 6/5/20,Consultant,Supply Chain & Operations,,"$129,000"
+248,Accenture,"Washington, D",| 6/5/20,Analyst,Testing (SDET),,"$75,000"
+249,PwC,"Chicago, I",| 6/3/20,Experienced Associate,iOS,,"$93,000"
+250,Deloitte,"Milano, LO, Ital",| 6/2/20,Senior Consultant,DevOps,,"$40,000"
+251,Deloitte,"San Francisco, C",| 6/2/20,Manager,Strategy,,"$185,000"
+252,Accenture,"San Francisco, C",| 6/1/20,9,None,,"$120,000"
+253,Accenture,"Sydney, NS, Australia", 5/30/20,Consultant,Management Consulting,,"$85,000"
+254,Accenture,"Chicago, IL", 5/29/20,Analyst,Consulting,,"$90,000"
+255,Deloitte,"Charlotte, NC", 5/28/20,Senior Consultant,Finance / Business Spend,,"$150,000"
+256,Deloitte,"Melbourne, VI, Australia", 5/27/20,Manager,Distributed Systems (Back-End),,"$106,000"
+257,Ernst and Young,"New York, NY", 5/27/20,Senior L1,SAP,,"$115,000"
+258,Deloitte,"Chicago, IL", 5/27/20,Manager,ML / AI,,"$171,000"
+259,Ernst and Young,"Houston, TX", 5/27/20,Manager,Supply Chain,,"$135,000"
+260,Bain,"San Francisco, CA", 5/27/20,Consultant,Consulting,,"$198,000"
+261,LEK,"Boston, MA", 5/26/20,Associate,Generalist,,"$98,000"
+262,PwC,"New York, NY", 5/25/20,Associate,other,,"$90,000"
+263,McKinsey,"Chicago, IL", 5/25/20,Associate,Energy,,"$210,000"
+264,KPMG,"Chicago, IL", 5/22/20,Manager,Consulting,,"$215,000"
+265,Deloitte,"Toronto, ON, Canada", 5/21/20,Senior Consultant,Mergers and acquisitions,,"$69,000"
+266,KPMG,"Atlanta, GA", 5/20/20,Director,Supply Chain,,"$250,000"
+267,Oliver Wyman,"Dubai, DU, United Arab Emirates", 5/19/20,Senior Consultant,Consulting,,"$110,000"
+268,Deloitte,"Arlington, VA", 5/18/20,Manager,iOS,,"$139,000"
+269,Ernst and Young,"Washington, DC", 5/18/20,Manager,HR Consulting Product Manager,,"$142,000"
+270,KPMG,"Boston, MA", 5/16/20,Director,Strategy,,"$280,000"
+271,Google,"San Bruno, CA", 5/16/20,L6,Strategy & Ops,,"$325,000"
+272,Capgemini,"Sydney, NS, Australia", 5/15/20,E,Distributed Systems (Back-End),,"$186,000"
+273,Google,"Washington, DC", 5/14/20,L4,Cloud,,"$173,000"
+274,Slalom,"Palo Alto, CA", 5/13/20,Principal,Other,,"$225,000"
+275,Ernst and Young,"New York, NY", 5/12/20,Senior Consultant,iOS,,"$115,000"
+276,Deloitte,"Chicago, IL", 5/11/20,Manager,Healthcare,,"$192,000"
+277,Deloitte,"San Francisco, CA", 5/10/20,Consultant,Operations,,"$80,000"
+278,Accenture,"New York, N",| 5/9/20,Manager,AI,,"$194,000"
+279,Accenture,"Florham Park, N",| 5/7/20,L7,Life Sciences,,"$250,000"
+280,Ernst and Young,"New York, N",| 5/7/20,Manager,Security,,"$155,000"
+281,Deloitte,"Los Angeles, C",| 5/7/20,Senior Consultant,Strategy,,"$170,000"
+282,McKinsey,"Atlanta, G",| 5/7/20,Engagement Manager,General,,"$245,000"
+283,Oliver Wyman,"New York, N",| 5/6/20,Consultant,Management Consulting,,"$97,000"
+284,McKinsey,"Denver, C",| 5/6/20,Business Analyst,Generalist,,"$112,000"
+285,Bain,"Washington, D",| 5/5/20,Consultant,Strategy,,"$217,000"
+286,Deloitte,"New York, N",| 5/5/20,Specialist,Finance,,"$75,000"
+287,Deloitte,"Arlington, V",| 5/5/20,Consultant,Security,,"$65,000"
+288,KPMG,"New York, N",| 5/4/20,Associate,Financial Services,,"$73,000"
+289,BCG,"Atlanta, G",| 5/3/20,Associate,Strategy,,"$90,000"
+290,Ernst and Young,"New York, N",| 5/3/20,2,iOS,,"$85,000"
+291,Deloitte Consulting,"Philadelphia, P",| 5/1/20,Senior Consultant,Management Consultant,,"$150,000"
+292,Slalom,"Dallas, TX", 4/30/20,Consultant,ML / AI,,"$123,000"
+293,Accenture,"New York, NY", 4/29/20,Consultant,Supply Chain,,"$135,000"
+294,Deloitte,"Dallas, TX", 4/29/20,Manager,iot,,"$180,000"
+295,Accenture,"San Francisco, CA", 4/29/20,Analyst,iOS,,"$99,000"
+296,Bain,"London, EN, United Kingdom", 4/29/20,Senior Associate Consultant,Generalist,,"$100,000"
+297,Ernst and Young,"New York, NY", 4/28/20,Senior Manager,Full Stack,,"$300,000"
+298,Accenture,"Los Angeles, CA", 4/27/20,Senior Analyst,n/a,,"$92,000"
+299,Ernst and Young,"Chicago, IL", 4/26/20,Manager,analytics,,"$165,000"
+300,McKinsey & Company,"San Francisco, CA", 4/25/20,Engagement Manager,Business,,"$250,000"
+301,McKinsey,"New York, NY", 4/25/20,Business Analyst,Business Analyst,,"$150,000"
+302,PwC,"Washington, DC", 4/23/20,Manager,Consulting,,"$172,000"
+303,McKinsey,"China, ME", 4/21/20,Business Analyst,Consulting,,"$100,000"
+304,PwC,"New York, NY", 4/20/20,Director,Financial services transformations,,"$219,000"
+305,Deloitte,"Washington, DC", 4/20/20,Consultant,Data Science,,"$86,000"
+306,Deloitte,"Washington, DC", 4/20/20,Manager,Security,,"$183,000"
+307,Ernst and Young,"Secaucus, NJ", 4/19/20,Manager,Security,,"$175,000"
+308,Accenture,"Seattle, WA", 4/18/20,Consultant,Management Consulting,,"$113,000"
+309,LEK,"London, EN, United Kingdom", 4/17/20,Associate 1,Strategy,,"$70,000"
+310,Deloitte,"San Francisco, CA", 4/17/20,Manager,Healthcare,,"$172,000"
+311,McKinsey & Company,"San Francisco, CA", 4/16/20,Senior Engagement Manager,Profitability,,"$260,000"
+312,Ernst and Young,"Chicago Heights, IL", 4/12/20,Manager,Risk,,"$130,000"
+313,Ernst and Young,"New York, NY", 4/12/20,Senior Manager,Compliance,,"$215,000"
+314,McKinsey,"New York, NY", 4/12/20,Engagement Manager,iOS,,"$230,000"
+315,Deloitte,"Washington, DC", 4/12/20,Consultant,Finance,,"$104,000"
+316,KPMG,"Dallas, TX", 4/11/20,Director,iOS,,"$225,000"
+317,Accenture,"Florham Park, NJ", 4/11/20,L7,Life Sciences,,"$250,000"
+318,Deloitte,"San Jose, CA", 4/10/20,Manager,Full Stack,,"$192,000"
+319,Siemens,"Lisbon, LI, Portugal", 4/10/20,Entry-level,back office,,"$25,000"
+320,Bain,"San Francisco, C",| 4/9/20,Associate Consultant,Multiple industries,,"$118,000"
+321,BCG,"Houston, T",| 4/6/20,Senior Associate,Management Consultant,,"$150,000"
+322,Accenture,"New York, N",| 4/5/20,Consultant,MC,,"$193,000"
+323,McKinsey,"Dallas, T",| 4/4/20,Associate,Strategy consulting,,"$204,000"
+324,PwC,"New York, N",| 4/4/20,Senior Associate,Deals,,"$160,000"
+325,Deloitte,"New York, N",| 4/4/20,Senior Consultant,Strategy,,"$158,000"
+326,Fidelity Investments,"Boston, M",| 4/3/20,Analyst,Business Strategy,,"$75,000"
+327,CGI,"Washington, D",| 4/3/20,Analyst,FA,,"$74,000"
+328,KPMG,"Chicago, I",| 4/1/20,Manager,M&A,,"$200,000"
+329,Deloitte,"Atlanta, G",| 4/1/20,Analyst,Strategy & Operations,,"$80,000"
+330,Deloitte,"San Francisco, C",| 4/1/20,Manager,Strategy,,"$190,000"
+331,KPMG,"New York, NY", 3/30/20,Associate,Consulting,,"$70,000"
+332,Accenture,"Chicago, IL", 3/29/20,Senior Analyst,Strategy,,"$90,000"
+333,BCG,"New York, NY", 3/28/20,Consultant,General,,"$205,000"
+334,Ernst and Young,"San Antonio, TX", 3/27/20,Consultant,Security,,"$82,000"
+335,Ernst and Young,"San Antonio, TX", 3/27/20,Consultant,Security,,"$75,000"
+336,Slalom,"Atlanta, GA", 3/27/20,L2,Cloud,,"$160,000"
+337,LEK,"Chicago, IL", 3/26/20,Consultant,Generalist,,"$190,000"
+338,uber,"Seoul, KG, Korea, South", 3/24/20,L6,Networking,,"$200,000"
+339,McKinsey,"New York, NY", 3/24/20,Senior Associate,Strategy,,"$210,000"
+340,PwC,"San Jose, CA", 3/18/20,Senior Manager,Management Consulting,,"$205,000"
+341,Accenture,"Calgary, AB, Canada", 3/18/20,9,Consulting,,"$112,000"
+342,Accenture,"Amsterdam, NH, Netherlands", 3/17/20,Consultant,Strategy,,"$62,000"
+343,Bain,"San Francisco, CA", 3/11/20,Senior Associate Consultant,N/A,,"$120,000"
+344,EY,"New York, NY", 3/10/20,Staff,iOS,,"$70,000"
+345,Deloitte,"New York, NY", 3/10/20,Business Technology Analyst,Cloud Strategy,,"$85,000"
+346,Ernst and Young,"Washington, D",| 3/6/20,Manager,Security,,"$180,000"
+347,BCG,"Dallas, T",| 3/4/20,Analyst,Consultant,,"$140,000"
