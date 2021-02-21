@@ -9,4 +9,4 @@ CATEGORICAL_IMPUTE = ['Company', 'Location', 'Job_Title', 'Subspecialty']
 
 CATEGORICAL_ENCODE = ['Company', 'Location', 'Job_Title', 'Subspecialty', 'Role']
 
-FEATURES = ['Company', 'Location', 'Job_Title', 'Subspecialty']
+FEATURES = ['Company', 'Location', 'Job_Title', 'Subspecialty', 'Role']

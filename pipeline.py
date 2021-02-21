@@ -1,4 +1,6 @@
 import os
+
+from pandas.core.arrays.sparse import dtype
 import settings
 import pandas as pd 
 import numpy as np
@@ -125,7 +127,13 @@ class Pipeline:
     def target_to_numerical(self, df):
         df = df.copy()
         df[self.target] = df[self.target].str.replace(',', '').str.replace('$','').astype(float)
-        return df    
+        return df   
+    
+    def common_mappings(self, data):
+        common_map = {}
+        for variable in settings.FEATURES:
+            common_map[variable] = data[variable].value_counts()[0]
+        return common_map
     
     
     # ====   master function that orchestrates feature engineering =====
@@ -134,6 +142,7 @@ class Pipeline:
         '''pipeline to learn parameters from data, fit the scaler and model'''
 
         # Drop rows with missing target values
+        self.commons = self.common_mappings(data)
         data = self.drop_missing_target(data)
 
         data = self.target_to_numerical(data)
@@ -183,8 +192,8 @@ class Pipeline:
         # train model
         self.model.fit(self.X_train, np.log(self.y_train))
         
-        return self    
-    
+        return self
+  
     def evaluate_model(self):
         '''evaluates trained model on train and test sets'''
         
@@ -195,4 +204,19 @@ class Pipeline:
         
         pred = self.model.predict(self.X_test)
         pred = np.exp(pred)
-        print('test r2: {}'.format((r2_score(self.y_test, pred)))) 
+        print('test r2: {}'.format((r2_score(self.y_test, pred))))
+
+    def predict(self, inpt):
+        predictor = pd.DataFrame(columns=['Company', 'Location', 
+                            'Job_Title', 'Subspecialty','Role'])
+        predictor.loc[0] = inpt
+        print(predictor)
+        print(self.commons)
+        predictor = self.encode_categorical_variables(predictor)
+        predictor = predictor.fillna(self.commons)
+        predictor = self.scaler.transform(predictor)
+        print(predictor)
+        prediction = self.model.predict(predictor)
+        prediction = np.exp(prediction)
+
+        return str(round(prediction[0])).split('.')[0]

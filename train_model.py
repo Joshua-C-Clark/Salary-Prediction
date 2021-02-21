@@ -15,10 +15,13 @@ def train():
                     )
 
     model = pipeline.fit(data)
+    test_item = pd.DataFrame(columns=['Company', 'Location', 
+                            'Job_Title', 'Subspecialty','Role'])
+    test_item.loc[0] = ['Google','San Francisco', 'L4', 'ML/AI','Data Scientist']
+    print(model.predict(test_item))
     joblib.dump(model, 'model.pkl')
     print('model performance')
     pipeline.evaluate_model()
 
 if __name__ == '__main__':
-    load()
     train()
