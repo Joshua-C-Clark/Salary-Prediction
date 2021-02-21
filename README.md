@@ -26,3 +26,8 @@ Data for the project was obtained via web scraping scripts that were developed u
 
 ## Model Training and Selection
 The model was trained using a Random Forest Regression Ensemble based upon the inherent group "binning" of the feature columns into a series of discrete variables. 
+
+## Future Work
+- Incorporate re to improve data cleaning.
+- Better user input processing to match training data format and values.
+- app.py styling and formating.
