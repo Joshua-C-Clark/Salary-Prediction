@@ -9,7 +9,7 @@ from selenium.webdriver.chrome.options import Options
 options = Options()
 options.add_argument("--disable-notifications")
 
-URL = 'https://www.levels.fyi/comp.html?track=Technical%20Program%20Manager'
+URL = '#'
 
 driver = webdriver.Chrome(options=options)
 
