@@ -5,7 +5,10 @@ import settings
 import pandas as pd 
 import numpy as np
 from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import MinMaxScaler
+from sklearn.preprocessing import MinMaxScaler, StandardScaler
+from sklearn.linear_model import LinearRegression
+from sklearn.svm import LinearSVR
+from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error, r2_score
 
@@ -32,7 +35,16 @@ class Pipeline:
         self.encoding_dict = {}
         
         # models
+
+        self.scaler = StandardScaler()
+
+        # self.model = GradientBoostingRegressor()
+
+
+
         self.scaler = MinMaxScaler()
+              
+        
         self.model = RandomForestRegressor(n_estimators = 100,
         bootstrap = True, 
         max_depth = 110,
@@ -105,6 +117,39 @@ class Pipeline:
        
         return df    
     
+    # This function will take the user input and shape it into the best matching items in the dataframe. A SQL equivalent
+    # would be a LIKE query.
+
+    def regex(self,df, data):
+        ''' Take a dataframe as input and use the ['Location', 'Role', 'Subspecialty']
+            features to ensure the algorithm is running on similar inputs that can actually be
+            found within the dataframe it was trained on.
+        '''
+        location = df['Location'][0]
+        subspecialty = df['Subspecialty'][0]
+        title = df['Job_Title'][0]
+
+        df = df.copy()
+
+        if data.loc[data['Location'].str.contains(location, na=False), 'Location'].value_counts().empty:
+            df['Location'] = np.nan
+        else:
+            df['Location'] = data.loc[data['Location'].str.contains(location, na=False), 'Location'].value_counts().index[0]
+
+
+        if data.loc[data['Subspecialty'].str.contains(subspecialty, na=False), 'Subspecialty'].value_counts().empty:
+            df['Subspecialty'] = np.nan
+        else:
+            df['Subspecialty'] = data.loc[data['Subspecialty'].str.contains(subspecialty, na=False), 'Subspecialty'].value_counts().index[0]
+
+
+        if data.loc[data['Job_Title'].str.contains(title, na=False), 'Job_Title'].value_counts().empty:
+            df['Job_Title'] = np.nan
+        else:
+            df['Job_Title'] = data.loc[data['Job_Title'].str.contains(title, na=False), 'Job_Title'].value_counts().index[0]
+
+        return df
+
     
     def encode_categorical_variables(self, df):
         
@@ -166,7 +211,7 @@ class Pipeline:
         self.X_train[self.numerical_log] = np.log(self.X_train[self.numerical_log])
         self.X_test[self.numerical_log] = np.log(self.X_test[self.numerical_log])
         
-        
+               
         # find frequent labels
         self.find_frequent_categories()
         
@@ -187,7 +232,6 @@ class Pipeline:
         # scale variables
         self.X_train = self.scaler.transform(self.X_train[self.features])
         self.X_test = self.scaler.transform(self.X_test[self.features])
-        print(self.X_train.shape, self.X_test.shape)
         
         # train model
         self.model.fit(self.X_train, np.log(self.y_train))
@@ -206,16 +250,18 @@ class Pipeline:
         pred = np.exp(pred)
         print('test r2: {}'.format((r2_score(self.y_test, pred))))
 
-    def predict(self, inpt):
+    def predict(self, inpt, data):
         predictor = pd.DataFrame(columns=['Company', 'Location', 
                             'Job_Title', 'Subspecialty','Role'])
         predictor.loc[0] = inpt
-        print(predictor)
         print(self.commons)
+
+        predictor = self.regex(predictor, data)
+
         predictor = self.encode_categorical_variables(predictor)
+        print(predictor)
         predictor = predictor.fillna(self.commons)
         predictor = self.scaler.transform(predictor)
-        print(predictor)
         prediction = self.model.predict(predictor)
         prediction = np.exp(prediction)
 
