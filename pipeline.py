@@ -117,38 +117,6 @@ class Pipeline:
        
         return df    
     
-    # This function will take the user input and shape it into the best matching items in the dataframe. A SQL equivalent
-    # would be a LIKE query.
-
-    def regex(self,df, data):
-        ''' Take a dataframe as input and use the ['Location', 'Role', 'Subspecialty']
-            features to ensure the algorithm is running on similar inputs that can actually be
-            found within the dataframe it was trained on.
-        '''
-        location = df['Location'][0]
-        subspecialty = df['Subspecialty'][0]
-        title = df['Job_Title'][0]
-
-        df = df.copy()
-
-        if data.loc[data['Location'].str.contains(location, na=False), 'Location'].value_counts().empty:
-            df['Location'] = np.nan
-        else:
-            df['Location'] = data.loc[data['Location'].str.contains(location, na=False), 'Location'].value_counts().index[0]
-
-
-        if data.loc[data['Subspecialty'].str.contains(subspecialty, na=False), 'Subspecialty'].value_counts().empty:
-            df['Subspecialty'] = np.nan
-        else:
-            df['Subspecialty'] = data.loc[data['Subspecialty'].str.contains(subspecialty, na=False), 'Subspecialty'].value_counts().index[0]
-
-
-        if data.loc[data['Job_Title'].str.contains(title, na=False), 'Job_Title'].value_counts().empty:
-            df['Job_Title'] = np.nan
-        else:
-            df['Job_Title'] = data.loc[data['Job_Title'].str.contains(title, na=False), 'Job_Title'].value_counts().index[0]
-
-        return df
 
     
     def encode_categorical_variables(self, df):
@@ -162,63 +130,24 @@ class Pipeline:
             df[variable] = df[variable].map(self.encoding_dict[variable])
         
         return df
-
-    def drop_missing_target(self, df):
-        '''Drop rows that have missing target variable data'''
-        df = df.copy()
-        df.dropna(subset=[self.target], inplace = True)
-        return df
-
-    def target_to_numerical(self, df):
-        df = df.copy()
-        df[self.target] = df[self.target].str.replace(',', '').str.replace('$','').astype(float)
-        return df   
-    
-    def common_mappings(self, data):
-        common_map = {}
-        for variable in settings.FEATURES:
-            common_map[variable] = data[variable].value_counts()[0]
-        return common_map
-    
+   
     
     # ====   master function that orchestrates feature engineering =====
 
     def fit(self, data):
         '''pipeline to learn parameters from data, fit the scaler and model'''
 
-        # Drop rows with missing target values
-        self.commons = self.common_mappings(data)
-        data = self.drop_missing_target(data)
-
-        data = self.target_to_numerical(data)
-        
         # separate data sets
         self.X_train, self.X_test, self.y_train, self.y_test = train_test_split(
                 data, data[self.target],
                 test_size = self.test_size,
                 random_state = self.random_state)
         
-        # impute missing data
-        # categorical
-        self.X_train[self.categorical_to_impute] = self.X_train[
-                self.categorical_to_impute].fillna('Missing')
-        
-        self.X_test[self.categorical_to_impute] = self.X_test[
-                self.categorical_to_impute].fillna('Missing')
- 
-        
+       
         # transform numerical variables
-        self.X_train[self.numerical_log] = np.log(self.X_train[self.numerical_log])
-        self.X_test[self.numerical_log] = np.log(self.X_test[self.numerical_log])
-        
-               
-        # find frequent labels
-        self.find_frequent_categories()
-        
-        # remove rare labels
-        self.X_train = self.remove_rare_labels(self.X_train)
-        self.X_test = self.remove_rare_labels(self.X_test)
-        
+        self.y_train = np.log(self.y_train)
+        self.y_test = np.log(self.y_test)
+
         # find categorical mappings
         self.find_categorical_mappings()
         
@@ -234,7 +163,7 @@ class Pipeline:
         self.X_test = self.scaler.transform(self.X_test[self.features])
         
         # train model
-        self.model.fit(self.X_train, np.log(self.y_train))
+        self.model.fit(self.X_train, self.y_train)
         
         return self
   
@@ -242,25 +171,18 @@ class Pipeline:
         '''evaluates trained model on train and test sets'''
         
         pred = self.model.predict(self.X_train)
-        pred = np.exp(pred)
         print('train r2: {}'.format((r2_score(self.y_train, pred))))
         
         
         pred = self.model.predict(self.X_test)
-        pred = np.exp(pred)
         print('test r2: {}'.format((r2_score(self.y_test, pred))))
 
-    def predict(self, inpt, data):
+    def predict(self, inpt):
         predictor = pd.DataFrame(columns=['Company', 'Location', 
                             'Job_Title', 'Subspecialty','Role'])
         predictor.loc[0] = inpt
-        print(self.commons)
-
-        predictor = self.regex(predictor, data)
 
         predictor = self.encode_categorical_variables(predictor)
-        print(predictor)
-        predictor = predictor.fillna(self.commons)
         predictor = self.scaler.transform(predictor)
         prediction = self.model.predict(predictor)
         prediction = np.exp(prediction)
