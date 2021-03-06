@@ -33,7 +33,5 @@ The model was trained using a Random Forest Regression Ensemble based upon the i
 The model is currently performing at an R^2 of 0.5. This should be improved upon with some of the items detailed below in future work.
 
 ## Future Work
-- Incorporate re to improve data cleaning.
-- Better user input processing to match training data format and values.
-- Prediction intervals
+- Better process user input from app.py. If there are no matches to existing variable, convert the input to 'Other'
 - app.py styling and formating.
