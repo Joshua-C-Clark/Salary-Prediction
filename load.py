@@ -17,3 +17,5 @@ def load():
     full_df = pd.concat(full_df)
     # Save the final dataframe for future cleaning and use for later
     full_df.to_csv(os.path.join(settings.PROCESSED_DIR, 'data.csv'))
+
+load()
