@@ -1,19 +1,27 @@
 import numpy as np
-from flask import Flask, app, request, jsonify, render_template
+from flask import Flask, app, json, request, jsonify, render_template
 import joblib
 
 app = Flask(__name__)
 model = joblib.load('model.pkl')
+companies = list(model.threshold_dict['Company'])
+locations = list(model.threshold_dict['Location'])
+titles = list(model.threshold_dict['Job_Title'])
+subspecialties = list(model.threshold_dict['Subspecialty'])
+roles = list(model.threshold_dict['Role'])
 
 @app.route('/')
 def home():
-    return render_template('index.html')
+    return render_template('index.html', companies = companies, locations=locations,
+                            titles = titles, subspecialties = subspecialties, roles = roles)
 
 @app.route('/predict', methods=['POST'])
 def predict():
     features = [x for x in request.form.values()]
     test = model.predict(features)
-    return render_template('index.html', prediction_text = 'Salary should be approximately ${}'.format(test))
+    return render_template('index.html', prediction_text = 'Salary should be approximately ${}'.format(test),
+                            companies = companies, locations=locations, titles = titles,
+                            subspecialties = subspecialties, roles = roles)
 
 
 if __name__ == "__main__":

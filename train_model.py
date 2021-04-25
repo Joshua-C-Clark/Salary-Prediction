@@ -13,10 +13,10 @@ def train():
                     )
 
     model = pipeline.fit(data)
-    test_item = pd.DataFrame(columns=['Company', 'Location', 
-                            'Job_Title', 'Subspecialty','Role'])
-    test_item.loc[0] = ['Google','San Diego, CA', 'L5', 'Pickle','Data Scientist']
-    print('Estimated Salary: ${}'.format(model.predict(test_item.loc[0])))
+    # test_item = pd.DataFrame(columns=['Company', 'Location', 
+    #                         'Job_Title', 'Subspecialty','Role'])
+    # test_item.loc[0] = ['US Navy','San Diego, CA', 'L4', 'Pickle','Other']
+    # print('Estimated Salary: ${}'.format(model.predict(test_item.loc[0])))
     joblib.dump(model, 'model.pkl')
     print('model performance')
     pipeline.evaluate_model()

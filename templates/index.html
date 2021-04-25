@@ -1,34 +1,5 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Salary Prediction</title>
-    <link
-      href="https://fonts.googleapis.com/css?family=Pacifico"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Arimo"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Hind:300"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      rel="stylesheet"
-      href="{{ url_for('static', filename='css/style.css') }}"
-    />
-  </head>
-
   <body>
     <div class="login">
       <h1>Salary Prediction</h1>
@@ -36,30 +7,70 @@
       <!-- Main Input For Receiving Query to our ML -->
       <form action="{{ url_for('predict')}}" method="post">
         <input
+          list="Company"
           type="text"
           name="Company"
           placeholder="Company"
           required="required"
         />
+        <datalist id="Company">
+          {%for item in companies%}
+          <option value="{{item}}" />
+          {% endfor %}
+        </datalist>
+
         <input
+          list="Location"
           type="text"
           name="Location"
           placeholder="Location"
           required="required"
         />
+        <datalist id="Location">
+          {%for item in locations%}
+          <option value="{{item}}" />
+          {% endfor %}
+        </datalist>
+
         <input
+          list="Job Title"
           type="text"
           name="Job Title"
           placeholder="Job Title"
           required="required"
         />
+        <datalist id="Job Title">
+          {%for item in titles%}
+          <option value="{{item}}" />
+          {% endfor %}
+        </datalist>
+
         <input
+          list="Subspecialty"
           type="text"
           name="Subspecialty"
           placeholder="Subspecialty"
           required="required"
         />
-        <input type="text" name="Role" placeholder="Role" required="required" />
+        <datalist id="Subspecialty">
+          {%for item in subspecialties%}
+          <option value="{{item}}" />
+          {% endfor %}
+        </datalist>
+
+        <input
+          list="Role"
+          type="text"
+          name="Role"
+          placeholder="Role"
+          required="required"
+        />
+
+        <datalist id="Role">
+          {%for item in roles%}
+          <option value="{{item}}" />
+          {% endfor %}
+        </datalist>
 
         <button type="submit" class="btn btn-primary btn-block btn-large">
           Predict Salary
