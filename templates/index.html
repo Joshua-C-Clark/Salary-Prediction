@@ -9,10 +9,25 @@
     />
   </head>
 
-  <body class="bg-secondary text-white">
+  <body class="container-fluid bg-secondary text-white">
     <div>
       <div class="jumbotron container-fluid text-center mt-5">
-        <h1 class="display-4">Salary Prediction</h1>
+        <h1 class="display-1">Salary Prediction</h1>
+      </div>
+
+      <div class="container text-center m-5">
+        <p class="">
+          The following boxes allow you to type or select values for each field.
+          If your particular information isn't present, then please type either
+          your information or "Other". The full details and code for this
+          project can be found
+          <a
+            class="text-white"
+            href="https://github.com/Joshua-C-Clark/Salary-Prediction"
+          >
+            here</a
+          >.
+        </p>
       </div>
 
       <!-- Main Input For Receiving Query to our ML -->
@@ -83,7 +98,7 @@
               {% endfor %}
             </datalist>
 
-            <button type="submit" class="btn btn-primary btn-block btn-large">
+            <button class="text-white btn btn-primary" type="submit">
               Predict Salary
             </button>
           </div>
