@@ -15,7 +15,7 @@ This project predicts the salary for various tech industry roles based on:
 3. numpy
 4. flask
 
-## Installation
+## Installation and Local Machine Execution
 
 `pip install sklearn pandas numpy flask`
 
@@ -33,6 +33,10 @@ Preliminary data analysis and preparation were completed in Jupyter Notebooks. P
 XGBoost Regression and Linear Regression, in addition to a handful of classification algorithms on binned Total_Comp, were evaluated for model depolyment. Ultimately, due to model simplicity and relative performance, Linear Regression was selected as the final model. A summarized notebook of the model evaluation can be found [here](https://github.com/Joshua-C-Clark/Salary-Prediction/blob/master/Notebooks/model.ipynb).
 
 The model is currently performing at an R^2 of 0.60 for Test Set and R^2 of 0.62 for Training Set and RMSE of ~$55,000 for both Training and Test Sets. 
+
+## Deployment
+The application uses a [train model](https://github.com/Joshua-C-Clark/Salary-Prediction/blob/master/train_model.py) function, which relies upon a custom pipeline to perform each milestone step of data preparation, model training, evaluation, and prediction. The pipeline can be found [here](https://github.com/Joshua-C-Clark/Salary-Prediction/blob/master/pipe.py). Finally, the application is deployed using a [Flask App](https://github.com/Joshua-C-Clark/Salary-Prediction/blob/master/app.py).
+
 
 ## Future Work
 - Connect a database to the scraped data and develop a scheduled periodicity for scraping and updating the database. Retrain the model to validate performmance periodically.
