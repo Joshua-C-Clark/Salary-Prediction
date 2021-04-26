@@ -19,7 +19,8 @@ def home():
 def predict():
     features = [x for x in request.form.values()]
     test = model.predict(features)
-    return render_template('index.html', prediction_text = 'Salary should be approximately ${}'.format(test),
+    test = format(int(test),',')
+    return render_template('index.html', prediction_text = 'Approximate Salary: ${}'.format(test),
                             companies = companies, locations=locations, titles = titles,
                             subspecialties = subspecialties, roles = roles)
 
