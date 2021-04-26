@@ -36,4 +36,3 @@ The model is currently performing at an R^2 of 0.60 for Test Set and R^2 of 0.62
 
 ## Future Work
 - Connect a database to the scraped data and develop a scheduled periodicity for scraping and updating the database. Retrain the model to validate performmance periodically.
-- Apply CSS styling to app.py and index.html
