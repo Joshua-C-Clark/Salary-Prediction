@@ -19,8 +19,6 @@ This project predicts the salary for various tech industry roles based on:
 
 `pip install sklearn pandas numpy flask`
 
-`python train_model.py`
-
 `python app.py`
 
 ## Data
